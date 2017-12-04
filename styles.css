@@ -640,3 +640,53 @@ a:visited {
 			margin-bottom: 80px;
 			width:90%;
 		}
+	}
+
+	@media screen and (max-width: 640px) {
+		#my-name {
+			width:100%;
+			margin-left:0;
+		}
+
+		nav {
+			position:absolute;
+			margin-top: 70px;
+			margin-left: 165px;
+			background-color:white;
+			min-width: 900px;
+			overflow: hidden;
+		}
+
+
+		.about-me-container {
+			position:relative;
+		}
+
+		.connect-with-me {
+			margin-left: -150px;
+		}
+		
+		.header{
+			position: static;
+		}
+
+
+		.my-picture {
+			width:50%;
+		}
+	
+		.about-me-text {
+			position:absolute;
+			font-size:12px;
+			top: 250px;
+			right: 400px;
+			letter-spacing: 1px;
+			white-space:pre-wrap;
+		}
+
+		.about-me-text-1 {
+			position: absolute;
+			top: -20px;
+			left: -20px;
+
+		}
