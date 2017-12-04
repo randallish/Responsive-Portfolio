@@ -361,16 +361,13 @@ a:visited {
 		margin: 0;
 		padding: 0;
 		height:100%;
+		width:100%;
 	}
 	.about-me-container {
 		width: 370px;
 		box-sizing:border-box;
-		height:75%;	
-		padding-right: 15%;
+		padding-right: 16%;
 		margin-left: 80px;
-		margin-bottom:0;
-		padding-bottom: 150px;
-		
 	}
 
 	.about-me-text {
@@ -380,8 +377,7 @@ a:visited {
 		margin-left: -10px;
 	}
 	.my-picture {
-		width:100%;
-		max-width: 100%;
+		width: 280px;
 		margin-top: 10px;
 		margin-left: -5px;
 	}
@@ -389,9 +385,14 @@ a:visited {
 	.sidebar {
 		position:absolute;
 		margin-left: 510px;
-		margin-top: 118px;
+		margin-top: 120px;
 		padding-bottom:25px;
-		
+		width: 20%;
+		padding-right: 10px;
+	}
+
+	.icons{
+		max-width:100%;
 	}
 	.portfolio-container {
 		position:relative;
@@ -433,7 +434,7 @@ a:visited {
 	.rutgers { 
 		position:absolute;
 		top: 320px;
-		right: 177px;	
+		right: 195px;	
 	}
 
 
@@ -477,11 +478,13 @@ a:visited {
 		padding-top: 15px;
 	}
 	
-	.sidebar-2 {
-		margin-left: 500px;
-		padding-bottom: 25px;
+	.sidebar-1, .sidebar-2 {
+		position:absolute;
+		margin-left: 510px;
+		padding-bottom:25px;
+		width: 20%;
+		padding-right: 10px;
 	}
-
 
 	.portfolio-header {
 		margin-top:10px;
@@ -519,7 +522,121 @@ a:visited {
 		float:right;
 		margin-right: 200px;
 	}
-
 }
 
+	@media screen and (max-width: 768px) {
 
+		html, body{
+			margin:0;
+			padding:0;
+
+
+		}
+		.about-me-container {
+			width:90%;
+			margin-left: 30px;
+			padding-bottom: 125px;
+
+		}
+		
+		.sidebar {
+			position: absolute;
+			margin-left: 30px;
+			margin-top: 600px;
+			margin-bottom: 80px;
+			width:90%;
+		}
+
+		.icons {
+			width: 50px;
+			float:left;	
+			margin-left: 15px;
+		}
+
+		#my-name, #my-name-1,#my-name-2 {
+			margin-left: 30px;
+		}
+
+
+		.about-me-text{
+			position: absolute;
+			margin-left: 300px;
+			font-size: 15px;
+			width: 20%;
+		}
+		
+		.about-me-text-1 {
+			position: absolute;
+			margin-left: 300px;
+			margin-top: 175px;
+			font-size:15px;
+			width:20%;
+		}
+
+		nav {
+			position: absolute;
+			margin-right: 0;
+			margin-left: 500px;
+		}
+
+
+		.connect-with-me {
+			border-bottom-style:none;
+			margin-left:-200px;
+		}
+
+
+		.portfolio-container{ 
+			width: 90%;
+			overflow:hidden;
+			margin-left: 30px;
+			padding-bottom: 125px;
+			height: 580px;
+		}
+
+		.RPG {
+			position: absolute;
+			margin-left:200px;
+			margin-top: -173px;
+		}
+
+		.rutgers { 
+			position:absolute;
+			margin-top: -100px;
+			margin-right: 120px;
+		}
+
+		.trivia {
+			position:absolute;
+			margin-top: 70px;
+		}
+
+		.RPS {
+			position: absolute;
+			margin-top: 155px;
+		}
+
+		.sidebar-1 {
+			position: absolute;
+			margin-top: 600px;
+			margin-left: 30px;
+			margin-top: 600px;
+			margin-bottom: 80px;
+			width:90%;
+		}
+
+		.contact-form {
+			width: 90%;
+			margin-left:30px;
+			padding-bottom:125px;
+		}
+
+
+		.sidebar-2 {
+			position: absolute;
+			margin-top: 600px;
+			margin-left: 30px;
+			margin-top: 600px;
+			margin-bottom: 80px;
+			width:90%;
+		}
